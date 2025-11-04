@@ -5,8 +5,9 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-        // LINHA CRUCIAL ADICIONADA: O nome do seu repositório
-        base: '/diapps/', 
+        // CORREÇÃO FINAL: Usamos o caminho relativo './' 
+        // Isso garante que o site procure os scripts a partir do diretório atual.
+        base: './', 
         server: {
             port: 3000,
             host: '0.0.0.0',
