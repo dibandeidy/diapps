@@ -1,0 +1,5 @@
+{
+  "name": "embalare-ok",
+  "description": "Uma calculadora de custo de produção visual que calcula o custo total com base nos produtos e itens selecionados, mas exibe apenas uma mensagem de sucesso, registrando o custo real no console.",
+  "requestFramePermissions": []
+}
